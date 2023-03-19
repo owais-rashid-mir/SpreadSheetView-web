@@ -1,0 +1,39 @@
+/* Styling for the file upload button */
+input[type="file"] {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  
+  table tr:hover {
+    background-color: #ebebeb;
+  }
+  
